@@ -1,10 +1,10 @@
-package com.example.myapplicationfrist.ui.slideshow
+package com.example.myapplicationfrist.ui.contact
 
 import android.arch.lifecycle.LiveData
 import android.arch.lifecycle.MutableLiveData
 import android.arch.lifecycle.ViewModel
 
-class SlideshowViewModel : ViewModel() {
+class ContactViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
        // value = "This is slideshow Fragment"

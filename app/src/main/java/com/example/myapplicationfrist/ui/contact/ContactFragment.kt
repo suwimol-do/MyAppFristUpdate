@@ -1,4 +1,4 @@
-package com.example.myapplicationfrist.ui.slideshow
+package com.example.myapplicationfrist.ui.contact
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,20 +10,20 @@ import android.arch.lifecycle.Observer
 import android.arch.lifecycle.ViewModelProviders
 import com.example.myapplicationfrist.R
 
-class SlideshowFragment : Fragment() {
+class ContactFragment : Fragment() {
 
-    private lateinit var slideshowViewModel: SlideshowViewModel
+    private lateinit var contactViewModel: ContactViewModel
 
     override fun onCreateView(
             inflater: LayoutInflater,
             container: ViewGroup?,
             savedInstanceState: Bundle?
     ): View? {
-        slideshowViewModel =
-                ViewModelProviders.of(this).get(SlideshowViewModel::class.java)
-        val root = inflater.inflate(R.layout.fragment_slideshow, container, false)
+        contactViewModel =
+                ViewModelProviders.of(this).get(ContactViewModel::class.java)
+        val root = inflater.inflate(R.layout.contact_slideshow, container, false)
         val textView: TextView = root.findViewById(R.id.text_slideshow)
-        slideshowViewModel.text.observe(viewLifecycleOwner, Observer {
+        contactViewModel.text.observe(viewLifecycleOwner, Observer {
             textView.text = it
         })
         return root
