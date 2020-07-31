@@ -5,4 +5,5 @@
     <color name="colorAccent">#03DAC5</color>
     <color name="color_bar">#F1857D</color>
     <color name="color_g">#85D4BBFC</color>
+    <color name="background_bar">#B4CF76F5</color>
 </resources>
