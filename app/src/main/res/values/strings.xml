@@ -22,4 +22,8 @@
         นิสัย "น่ารัก" \n</string>
     <string name="style">NameStyle</string>
     <string name="todo">TODO</string>
+    <string name="contact">Contact</string>
+    <string name="tel_view">Tel  : 0908256037 </string >
+    <string name="text_facebook">Facebook  : Suwimol  Domgkrathok</string>
+    <string name="text_ig">Instagram : Kuwiee_na </string>
 </resources>
