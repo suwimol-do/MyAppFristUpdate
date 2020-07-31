@@ -43,11 +43,13 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="173dp"
-        android:layout_height="257dp"
+        android:layout_width="wrap_content"
+        android:layout_height="105dp"
         android:src="@drawable/na"
-        tools:layout_editor_absoluteX="103dp"
-        tools:layout_editor_absoluteY="35dp" />
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="106dp"
+        android:textAlignment="center"
+        tools:ignore="MissingConstraints" />
 
 
 </android.support.constraint.ConstraintLayout>
