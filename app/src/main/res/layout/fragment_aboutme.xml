@@ -13,10 +13,9 @@
 
     <ScrollView
         android:id="@+id/about_scroll"
-        android:layout_width="398dp"
-        android:layout_height="365dp"
+        android:layout_width="388dp"
+        android:layout_height="302dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="194dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="48dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -24,7 +23,7 @@
         app:layout_constraintHorizontal_bias="0.472"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.913"
+        app:layout_constraintVertical_bias="1.0"
         tools:ignore="MissingConstraints">
 
         <TextView
@@ -38,18 +37,10 @@
             android:paddingEnd="@dimen/layout_margin"
             android:text="@string/text_about"
             android:textAlignment="center"
-            android:textSize="18sp" />
+            android:textSize="14sp" />
     </ScrollView>
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="105dp"
-        android:src="@drawable/na"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="106dp"
-        android:textAlignment="center"
-        tools:ignore="MissingConstraints" />
+
 
 
 </android.support.constraint.ConstraintLayout>
