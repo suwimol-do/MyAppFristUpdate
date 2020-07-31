@@ -2,8 +2,6 @@
     <string name="app_name">MyApplicationFrist</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header">Android Studio</string>
-    <string name="nav_header">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
@@ -12,4 +10,5 @@
     <string name="menu_slideshow">Slideshow</string>
     <string name="nav_header_subtitle">suwimol.do@rmuti.ac.th</string>
     <string name="nav_header_title">suwimol dongkrathok</string>
+    <string name="menu_About">" AboutMe"</string>
 </resources>
